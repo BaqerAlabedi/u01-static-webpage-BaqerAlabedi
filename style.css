@@ -1,23 +1,4 @@
-@media (max-width:700px) {
-    /* For tablets: */
-    .about-text>h2{
-      font-size: 13px !important;
 
-      
-    }
-    .about-text>h5{
-        font-size: 20px !important;
-    }
-    .about-text>h6{
-        font-size: 20px !important;
-    }
-    .main>img{
-        
-        width: 100px !important;
-        
-    }
-    
-  }
 
 
 .back-video{
@@ -117,7 +98,7 @@ form{
 body{
     margin: 0;
 }
-.about-text h2{
+.about-text > h2{
     color: white;
     font-size: 75px;
     text-transform: capitalize;
@@ -173,4 +154,26 @@ table {
   
   tr:nth-child(even) {
     background-color: #dddddd;
+  }
+
+
+  @media (max-width:700px) {
+    /* For tablets: */
+    .about-text>h2{
+      font-size: 13px;
+
+      
+    }
+    .about-text>h5{
+        font-size: 20px;
+    }
+    .about-text>h6{
+        font-size: 20px;
+    }
+    .main>img{
+        
+        width: 100px;
+        
+    }
+    
   }
