@@ -71,6 +71,7 @@ form{
     width: 100%;
     padding: 100px 0px;
     background-color: black;
+    background: linear-gradient(16deg, rgb(103, 54, 54) 0%, rgb(34, 41, 52) 94%);
 }
 .about img{
     height: auto;
